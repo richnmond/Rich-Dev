@@ -1,0 +1,29 @@
+{
+    "project_info": {
+      "project_number": "300998236173",
+      "project_id": "rich-dev-3182e",
+      "storage_bucket": "rich-dev-3182e.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:300998236173:android:d9844ec44fec61b41bdd44",
+          "android_client_info": {
+            "package_name": "Rich.dev.com"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDZbJzx3ig45VCs1vfy2lai5jONUVHB8Kc"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

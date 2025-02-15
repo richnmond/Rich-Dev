@@ -1,0 +1,277 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #080404;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #2bad2b;
+    margin-bottom: 10px;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #7e2467;
+    color: #19a564;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a.active {
+    color: #f4a261;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 24px;
+    color: #fff;
+}
+.box {
+    text-align: left; /* Align text and content to the left */
+}
+
+/* Responsive Nav (For Mobile View) */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: url('image/my dev.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Services Section */
+.services {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.service-item {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 40px;
+    color: #f4a261;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 16px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 40px;
+}
+
+.swiper-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Social Links */
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #050505;
+    color: #2701d3;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    justify-content: flex-end;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Links Section */
+.links {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #050505;
+}
+
+.links a {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: oklab(from color l a b);
+    text-decoration-color: rgb(250, 249, 250);
+    text-decoration-thickness: 2px;
+    color:#f9f9f9;
+}
+
+/* Posts Section */
+.posts {
+    padding: 40px 0;
+    background-color: #706ac7;
+    text-align: center;
+}
+
+.posts a {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #2c2824;
+    text-decoration: none;
+}
+
+/* Copyright Section */
+#sec-7 {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#sec-7 p {
+    margin: 0;
+}
+
+#sec-7 span {
+    color: #f4a261;
+}
