@@ -28,5 +28,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-console.log('welcome rich dev')
-alert('Welcome to my profile ')
+console.log('Wekcome rich dev')
+alert('Welcome to my Profile Rich Dev')

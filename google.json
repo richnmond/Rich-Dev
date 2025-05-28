@@ -8,12 +8,12 @@
       {
         "client_info": {
           "mobilesdk_app_id": "1:300998236173:android:d9844ec44fec61b41bdd44",
-          "android_client_info": {
+          "android_clienlt_info": {
             "package_name": "Rich.dev.com"
           }
         },
         "oauth_client": [],
-        "api_key": [
+         "api_key": [
           {
             "current_key": "AIzaSyDZbJzx3ig45VCs1vfy2lai5jONUVHB8Kc"
           }

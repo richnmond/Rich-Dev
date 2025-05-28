@@ -21,7 +21,7 @@ h1 {
     margin-bottom: 20px;
 }
 h2 {
-    color: #080404;
+    color: #c59f20;
     margin-bottom: 20px;
 }
 
@@ -35,6 +35,7 @@ header {
     background-color: #7e2467;
     color: #19a564;
     padding: 10px 0;
+  
 }
 
 nav .container {
@@ -63,11 +64,11 @@ nav .container {
 }
 
 .nav-links a.active {
-    color: #f4a261;
+    color: #eb9b08;
 }
 
 .hamburger {
-    display: none;
+    display: flow-root;
     cursor: pointer;
 }
 
@@ -142,12 +143,12 @@ nav .container {
     display: inline-block;
     width: 30%;
     padding: 20px;
-    text-align: center;
+    text-align:center;
 }
 
 .service-item i {
     font-size: 40px;
-    color: #f4a261;
+    color: #eb4b0c;
     margin-bottom: 20px;
 }
 
@@ -222,11 +223,9 @@ footer p {
 }
 
 .links a {
-    display: inline-flex;
+    display: inline-block;
     margin: 10px;
-    text-decoration: oklab(from color l a b);
-    text-decoration-color: rgb(250, 249, 250);
-    text-decoration-thickness: 2px;
+    text-decoration: none;
     color:#f9f9f9;
 }
 
