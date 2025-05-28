@@ -140,7 +140,7 @@ nav .container {
 }
 
 .service-item {
-    display: inline-block;
+    display: inline;
     width: 30%;
     padding: 20px;
     text-align:center;
